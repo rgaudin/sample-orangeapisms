@@ -1,0 +1,13 @@
+
+ORANGE_API = {
+    'handler_module': 'orange.handlers',
+    'use_db': True,
+    'smsmt_url': 'https://api.sdp.orange.com/smsmessaging/v1',
+    'sender_address': '+9912345',
+    'sender_name': "REG",
+    'token': None,
+    'enable_tester': True,
+    'default_sender_name': 'sender_address',
+    'send_async': True,
+    'celery_module': 'orange.celery'
+}
