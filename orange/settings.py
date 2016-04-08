@@ -163,4 +163,8 @@ CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
 INSTALLED_APPS = list(INSTALLED_APPS) + ['orangeapisms',
                                          'django_forms_bootstrap']
 
-from orange.settings_local import ORANGE_API, DEBUG, ALLOWED_HOSTS
+try:
+    from orange.settings_local import *
+except ImportError:
+    pass
+
