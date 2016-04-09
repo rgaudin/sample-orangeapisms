@@ -1,13 +1,14 @@
 {
     "handler_module": "orange.handlers",
-    "celery_app": null,
+    "celery_module": null,
     "default_sender_name": "sender_address",
-    "sender_address": "+22300000",
+    "sender_address": "+22300000000",
     "use_db": true,
-    "client_id": "<Your Client ID here>",
+    "client_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     "smsmt_url": "https://api.orange.com/smsmessaging/v1",
-    "oauth_url": "https://api.orange.com/oauth/v2"
-    "client_secret": "<Your client Secret here>",
+    "oauth_url": "https://api.orange.com/oauth/v2",
+    "client_secret": "xxxxxxxxxxxxxxxx",
     "enable_tester": true,
-    "send_async": false
+    "send_async": false,
+    "country": "MLI"
 }
