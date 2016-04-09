@@ -10,5 +10,7 @@
     "client_secret": "xxxxxxxxxxxxxxxx",
     "enable_tester": true,
     "send_async": false,
-    "country": "MLI"
+    "country": "MLI",
+    "country_prefix": "223",
+    "fix_msisdn": true
 }
